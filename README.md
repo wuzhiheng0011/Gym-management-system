@@ -30,10 +30,10 @@
        <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif(2)" width="200" alt="预约课程">
     </div>
     <div align="center">
-  <img src="./assets/screenshots/chat.gif" width="200" alt="私教沟通，联系客服">
+  <img src="./assets/gifs/jiaolian.gif" width="400" height="300" alt="私教沟通，联系客服">
   </div>
     <div align="center">
-  <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif(2)" width="200" alt="后台管理">
+  <img src="./assets/gifs/houtai.gif" width="200" alt="后台管理">
 </div>
 
 ## ⚙️ 系统架构
