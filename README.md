@@ -24,7 +24,7 @@
   <img src="./assets/gifs/ezgif.com-video-to-gif-converter (1).gif" width="400" height="300" alt="课程预约">
      </div>
      <div align="center">
-   <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif(2)" width="200" alt="个人信息">
+   <img src="./assets/gifs/ezgif.com-video-to-gif-converter (2).gif" width="200" alt="个人信息">
        </div>
   <div align="center">
        <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif(2)" width="200" alt="预约课程">
