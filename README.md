@@ -21,19 +21,16 @@
   <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif" width="400" height="300" alt="登录流程">
   </div>
   <div align="center">
-  <img src="./assets/gifs/ezgif.com-video-to-gif-converter (1).gif" width="400" height="300" alt="课程预约">
+  <img src="./assets/gifs/ezgif.com-video-to-gif-converter (2).gif" width="400" height="300" alt="课程预约">
      </div>
      <div align="center">
-   <img src="./assets/gifs/ezgif.com-video-to-gif-converter (2).gif" width="200" alt="个人信息">
+   <img src="./assets/gifs/ezgif.com-video-to-gif-converter (1).gif" width="400" height="300" alt="个人信息">
        </div>
-  <div align="center">
-       <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif(2)" width="200" alt="预约课程">
-    </div>
     <div align="center">
   <img src="./assets/gifs/jiaolian.gif" width="400" height="300" alt="私教沟通，联系客服">
   </div>
     <div align="center">
-  <img src="./assets/gifs/houtai.gif" width="200" alt="后台管理">
+  <img src="./assets/gifs/houtai.gif" width="400" height="300" alt="后台管理">
 </div>
 
 ## ⚙️ 系统架构
