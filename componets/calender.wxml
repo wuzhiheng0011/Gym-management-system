@@ -1,0 +1,17 @@
+<!--componets/calender.wxml-->
+<text>componets/calender.wxml</text>
+<view class="calendar">
+  <view class="header">
+    <view class="prev-month" bindtap="prevMonth">‹</view>
+    <view class="current-month">{{currentYear}}年{{currentMonth}}月</view>
+    <view class="next-month" bindtap="nextMonth">›</view>
+  </view>
+  <view class="weekdays">
+    <view wx:for="{{weekdays}}" wx:key="index">{{item}}</view>
+  </view>
+  <view class="days">
+    <view wx:for="{{days}}" wx:key="index" class="day {{item.currentMonth ? '' : 'other-month'}} {{item.today ? 'today' : ''}}" data-date="{{item.date}}" bindtap="onDateClick">
+      {{item.day}}
+    </view>
+  </view>
+</view>
