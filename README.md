@@ -17,11 +17,8 @@
 | **客服系统**     | 接入微信原生客服消息                                                     | 智能问题分类（NLP基础处理）  |
 
 ## 🎨 界面演示
-<div style="width: 500px; border: 1px solid #eee; border-radius: 8px; overflow: hidden">
-  <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif" alt="登录流程" style="width: 100%">
-</div>
 <div align="center">
-  <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif" width="200" alt="登录流程">
+  <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif" width="200" height="300" alt="登录流程">
   <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif(1)" width="200" alt="课程预约">
    <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif(2)" width="200" alt="个人信息">
   <img src="./assets/gifs/ezgif.com-video-to-gif-converter.gif(2)" width="200" alt="预约课程">
