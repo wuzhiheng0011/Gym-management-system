@@ -1,0 +1,26 @@
+<!-- pages/personalCenter/index.wxml -->
+<view class="top-section" style="height: 33vh; background-image: url('{{topBackgroundImageUrl}}'); background-size: cover; display: flex; justify-content: center; align-items: center;">
+  <image
+    wx:if="{{avatarUrl}}"
+    src="{{avatarUrl}}"
+    bindtap="chooseAvatar"
+    style="width: 150rpx; height: 150rpx; border-radius: 50%;"
+  ></image>
+</view>
+
+<view class="bottom-section" style="height: 67vh; background-image: url('{{bottomBackgroundImageUrl}}'); background-size: cover; display: flex; flex-direction: column; justify-content: space-around; padding: 20rpx;"> <!-- 添加背景图片和 flex 布局 -->
+  <view class="info-row" wx:for="{{userInfoItems}}" wx:key="index" style="display: flex; justify-content: space-between; background-color: rgba(255, 255, 255, 0.8); padding: 10rpx; border-radius: 5rpx; margin-bottom: 10rpx;">  <!-- 四栏布局，添加背景颜色及圆角 -->
+    <view class="label">{{item.label}}:</view>
+    <view class="value">{{item.value === 0 ? '0' : item.value || '未设置'}}</view>  <!-- 处理 0 的显示 -->
+  </view>
+  <button open-type="contact" session-from="自己定义的session来源">联系客服</button>
+  <!-- 底部按钮 -->
+<view class="bottom-buttons">
+    <button bindtap="goToPersonalCenter">用户</button>
+  <button bindtap="goToCustomerIndex">课程</button>
+  <button bindtap="goToRecharge">充值</button>
+  <button bindtap="goToAppointment">私教</button>
+</view>
+</view>
+
+

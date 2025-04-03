@@ -1,0 +1,50 @@
+/* pages/index/index.wxss */
+.container {
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+    height: 100vh; /* 占据整个屏幕高度 */
+  }
+  
+  .logo {
+    width: 100px; 
+    height: 100px; 
+    margin-bottom: 100px; 
+  }
+  
+  .spacer {
+    height: 20px; /* 间隔高度 */
+  }
+  
+  .title {
+    font-size: 20px; /* 标题字体大小 */
+    margin-bottom: 20px; /* 标题底部外边距 */
+  }
+  
+  .role-group {
+    margin-bottom: 20px; /* 单选按钮组底部外边距 */
+  }
+  
+  .radio {
+    display: inline-block; /* 使单选按钮水平排列 */
+    margin-right: 20px; /* 单选按钮之间间距 */
+  }
+  
+  .login-button {
+    width: 200px;
+    height: 40px;
+    background-color: #007bff; /* 按钮背景颜色 */
+    color: #fff; /* 按钮文字颜色 */
+    border-radius: 5px; /* 按钮圆角 */
+  }
+  .input {
+    width: 80%;
+    height: 40px;
+    margin: 10px auto;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  

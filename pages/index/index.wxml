@@ -1,0 +1,17 @@
+<!--pages/index/index.wxml-->
+<view class="container" style="{{'width:' + screenWidth + 'px; height:' + screenHeight + 'px; background-image: url(' + backgroundImageUrl + '); background-repeat: no-repeat; background-position: center;'}}">
+  <image class="logo" src="/images/logo.png"></image>
+  <view class="title">健身房管理系统</view>
+
+  <input class="input" placeholder="请输入用户名" bindinput="onUsernameInput" />
+  <input class="input" placeholder="请输入密码" password="true" bindinput="onPasswordInput" />
+
+  <button class="login-button" bindtap="onLogin">登录</button>
+</view>
+
+
+
+
+
+
+

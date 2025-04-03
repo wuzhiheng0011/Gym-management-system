@@ -1,0 +1,28 @@
+<!--pages/booking/index.wxml-->
+
+<view class="coach-list">
+  <view wx:for="{{coachList}}" wx:key="index" class="coach-item">
+    <image class="avatar" src="{{item.photoUrl}}" mode="aspectFill"></image>
+    <view class="coach-info">
+      <view class="coach-name">{{item.name}}</view>
+      <view class="coach-money">费用：{{item.money}}</view>
+    </view>
+    <button class="contact-button" bindtap="contactCoach" data-phone="{{item.phone}}">联系教练</button>
+  </view>
+
+  <view wx:if="{{coachList.length === 0}}" class="no-coach">
+    暂无教练信息
+  </view>
+  <!-- 底部按钮 -->
+<view class="bottom-buttons">
+    <button bindtap="goToPersonalCenter">用户</button>
+  <button bindtap="goToCustomerIndex">课程</button>
+  <button bindtap="goToRecharge">充值</button>
+  <button bindtap="goToAppointment">私教</button>
+</view>
+<view class="top-button">
+  <button open-type="contact">联系客服</button>
+</view>
+</view>
+
+

@@ -1,0 +1,50 @@
+<!--pages/customer/index.wxml-->
+<view class="container" style="{{'width:' + screenWidth + 'px; height:' + screenHeight + 'px; background-image: url(' + backgroundImageUrl + '); background-repeat: no-repeat; background-position: center;'}}">
+
+<!-- 轮播图 -->
+<swiper indicator-dots autoplay interval="5000" circular>
+  <swiper-item>
+    <image src="/images/banner1.jpg" mode="aspectFill"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/banner2.jpg" mode="aspectFill"></image>
+  </swiper-item>
+</swiper>
+
+<!-- 课表 -->
+<view class="schedule">
+  <view class="schedule-title">本周课表</view>
+  <view class="schedule-day" wx:for="{{scheduleData}}" wx:for-item="dayItem" wx:for-index="dayIndex" wx:key="day"> 
+    <view class="schedule-day-title">{{dayItem.day}}</view>
+    <view class="schedule-item" wx:for="{{dayItem.courses}}" wx:for-item="course" wx:for-index="courseIndex" wx:key="time">
+      <view>{{course.time}}</view>
+      <view>{{course.classname}}</view>
+      <view>剩余：{{course.last}}</view>
+      <button 
+        size="mini" 
+        type="{{course.booked ? 'warn' : 'primary'}}" 
+        style="background-color:{{course.booked ? 'red' : 'green'}}; margin-left: 10px;"  
+        data-day-index="{{dayIndex}}" 
+        data-course-index="{{courseIndex}}"
+        bindtap="{{course.booked ? 'cancelBooking' : 'bookCourse'}}">
+        {{course.booked ? '取消' : '预约'}}
+      </button>
+    </view>
+  </view>
+</view>
+
+<!-- 底部按钮 -->
+<view class="bottom-buttons">
+  <button bindtap="goToPersonalCenter">用户</button>
+  <button bindtap="goToCustomerIndex">课程</button>
+  <button bindtap="goToRecharge">充值</button>
+  <button bindtap="goToAppointment">私教</button>
+</view>
+</view>
+
+
+
+
+
+
+
