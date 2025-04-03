@@ -18,7 +18,7 @@
 
 ## 🎨 界面演示
 <div align="center">
-  <img src="./assets/screenshots/login.gif" width="200" alt="登录流程">
+  <img src="./assets/gifs/ezgif.com-video-to-gif-converter (1).gif" width="200" alt="登录流程">
   <img src="./assets/screenshots/booking.gif" width="200" alt="课程预约">
   <img src="./assets/screenshots/chat.gif" width="200" alt="私教沟通"> 
 </div>
